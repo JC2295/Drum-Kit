@@ -9,29 +9,40 @@
 body{
     background: url(Images/background.jpg) no-repeat center center fixed;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    align-content: center;
+    min-height: 100vh;
 }
 
 #title{
     text-align: center;
-    padding: 2rem;
 }
 
 #container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    justify-items: center;
+    align-content: center;
     flex-wrap: wrap;
-    margin-top: 40vh;
-    height: 4rem;
+    height: auto;
+    gap: 2rem;
+    min-width: 200px;
 }
 
 .drum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     border: solid white 1px;
     padding: 1rem;
     background-color: rgba(128, 128, 128, 0.5);
     border-radius: 5px;
-    align-self: start;
+    aspect-ratio: 1/1;
+    width: 4rem;
 }
 
 .drum:hover{
