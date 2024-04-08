@@ -30,6 +30,7 @@ body{
     height: auto;
     gap: 2rem;
     min-width: 200px;
+    padding: 1rem;
 }
 
 .drum{
