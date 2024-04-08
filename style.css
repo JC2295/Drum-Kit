@@ -38,16 +38,20 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    border: solid white 1px;
+    border: solid white 2px;
     padding: 1rem;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.8);
     border-radius: 5px;
     aspect-ratio: 1/1;
     width: 4rem;
+    user-select: none;
+    font-size: 1rem;
+    font-weight: bold;
+
 }
 
 .drum:hover{
-    border: solid white 2px;
+    border: solid white 4px;
 }
 
 .highlight{
