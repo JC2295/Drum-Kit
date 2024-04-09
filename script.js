@@ -17,6 +17,9 @@ for(let i = 0; i < drums.length; i++){
     drums[i].addEventListener("mousedown", () => playDrum(i));
     drums[i].addEventListener("mousedown", () => highlight(i));
     drums[i].addEventListener("mouseup", () => unhighlight(i));
+    drums[i].addEventListener("touchstart", () => playDrum(i));
+    drums[i].addEventListener("touchstart", () => highlight(i));
+    drums[i].addEventListener("touchend", () => unhighlight(i));
     // Will come back to this as I'm not sure exactly how it works.
 }
 
